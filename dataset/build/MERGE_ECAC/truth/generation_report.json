@@ -1,0 +1,64 @@
+{
+  "seed": 20260302,
+  "rows_published": 2216,
+  "rows_ecac": 1348,
+  "class_counts": {
+    "Q1": 525,
+    "Q3": 500,
+    "Q2": 168,
+    "Q4": 130
+  },
+  "injected": {
+    "A1": 25,
+    "A2": 120,
+    "A3": 90,
+    "B1": 180,
+    "B2": 220,
+    "B3": 150,
+    "B4": 120,
+    "C1": 60,
+    "C2": 25,
+    "C3": 70,
+    "C4": 15,
+    "C6": 40,
+    "C7": 45,
+    "H1": 1,
+    "H2": 1,
+    "H3": 1,
+    "H4": 1,
+    "H5": 1
+  },
+  "natural_rates": {
+    "C6": 0.0,
+    "C7": 0.0,
+    "A2": 0.0,
+    "A1": 0.0
+  },
+  "skipped": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "G1"
+  ],
+  "media": {},
+  "b4_mcar_draws": 5,
+  "test_split": {
+    "source": "tvt_40_30_30_test_bimodal_complete.csv",
+    "songs": 409,
+    "fraction": 0.309,
+    "per_class_fraction": {
+      "Q1": 0.303,
+      "Q2": 0.333,
+      "Q3": 0.306,
+      "Q4": 0.315
+    },
+    "per_class_count": {
+      "Q1": 159,
+      "Q3": 153,
+      "Q2": 56,
+      "Q4": 41
+    }
+  },
+  "checks_failed": 0
+}

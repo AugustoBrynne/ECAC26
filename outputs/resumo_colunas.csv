@@ -1,0 +1,28 @@
+coluna,tipo,papel,significado,valores_em_falta,percentagem_em_falta,valores_distintos,distribuicao_ou_intervalo
+Audio_Song,categórica/texto,Identificador,Identifica o ficheiro de áudio.,0,0.0,914,A132-121: 2; MT0004395306: 2; A071-70: 2
+Lyric_Song,categórica/texto,Identificador,Identifica o ficheiro da letra.,0,0.0,914,L022-121: 2; MT0004395306: 2; L121-70: 2
+Quadrant,categórica/texto,Alvo,Quadrante emocional a prever.,0,0.0,4,Q1: 374; Q3: 356; Q2: 112
+AllMusic Id,categórica/texto,Identificador,Identificador da faixa no catálogo AllMusic.,0,0.0,911,not_found: 4; MT0032955866: 2; MT0004395306: 2
+AllMusic Extraction Date,categórica/texto,Administrativa,Indica a recolha Old ou New.,0,0.0,2,Old: 859; New: 73
+Artist,categórica/texto,Descritiva,Nome do artista.,0,0.0,655,Billie Holiday: 17; Lightnin' Hopkins: 10; The Beatles: 8
+Title,categórica/texto,Descritiva,Título da faixa.,0,0.0,898,Billie's Blues: 3; Save Me: 3; I'm With a Crowd But So Alone: 2
+Relevance,numérica,Medida,Relevância devolvida pela pesquisa AllMusic.,160,17.17,757,mín. 1.01027; mediana 1.03932; máx. 1.84
+Year,categórica/texto,Medida,Data de lançamento registada pelo AllMusic.,116,12.45,487,1983-??-??: 10; 1997-??-??: 8; 1958-??-??: 8
+LowestYear,categórica/texto,Medida,Data de lançamento mais antiga encontrada.,322,34.55,371,1994-??-??: 8; 1993-??-??: 7; 1986-??-??: 7
+Duration,numérica,Medida,"Duração da faixa, em segundos.",190,20.39,272,mín. -1; mediana 197; máx. 367000
+Moods,categórica/texto,Descritiva,Etiquetas de humor da vocabulário reduzido.,73,7.83,731,"Negative,Nervous/Jittery: 22; Greasy,Lazy,Uncompromising: 11; Anguished/Distraught,Gloomy: 8"
+MoodsAll,categórica/texto,Descritiva,Etiquetas de humor da vocabulário completo.,21,2.25,809,"Brash,Bravado,Confrontational,Earne: 13; Aggressive,Belligerent,Boisterous,L: 11; Carefree,Earnest,Earthy,Freewheelin: 7"
+MoodsAllWeights,categórica/texto,Medida,Peso associado a cada etiqueta de MoodsAll.,24,2.58,617,"5,5,5,5,5: 41; 5,5,5,5,5,5,5: 26; 5,5,5,5,5,5,5,5: 22"
+Genres,categórica/texto,Descritiva,Etiquetas de género.,126,13.52,116,Pop/Rock: 202; Country: 74; R&B: 51
+GenreWeights,categórica/texto,Medida,Peso associado a cada género.,22,2.36,88,9: 308; 8: 73; 7: 66
+Themes,categórica/texto,Descritiva,Etiquetas de tema.,151,16.2,628,"Feeling Blue,Hanging Out,Introspect: 13; Feeling Blue,Hanging Out,Relaxation: 10; Seduction,Sex: 7"
+ThemeWeights,categórica/texto,Medida,Peso associado a cada tema.,151,16.2,252,"9,9,9,9: 91; 9,9,9: 74; 9,9,9,9,9: 23"
+Styles,categórica/texto,Descritiva,Etiquetas de estilo.,82,8.8,582,"Acoustic Texas Blues,Country Blues,: 13; Honky Tonk,Traditional Country: 11; Contemporary Country,New Traditiona: 10"
+StyleWeights,categórica/texto,Medida,Peso associado a cada estilo.,82,8.8,265,"9,9: 53; 9,9,9: 39; 5,9: 28"
+AppearancesTrackIDs,categórica/texto,Identificador,Outras edições da mesma gravação.,109,11.7,807,"MT0000172167,MT0004395306,MT0012320: 2; MT0000886390,MT0001876951,MT0002295: 2; MT0001006012,MT0001494175,MT0001804: 2"
+AppearancesAlbumIDs,categórica/texto,Identificador,Álbuns das outras edições.,109,11.7,780,"MW0000645476: 4; MW0000030325: 3; MW0000811848,MW0000811848,MW0000811: 3"
+Sample,numérica,Administrativa,Indica se havia um excerto disponível.,73,7.83,2,mín. 0; mediana 1; máx. 1
+SampleURL,categórica/texto,Administrativa,Endereço do excerto recolhido.,78,8.37,838,http://rovimusic.rovicorp.com/playb: 2; http://rovimusic.rovicorp.com/playb: 2; http://rovimusic.rovicorp.com/playb: 2
+ActualYear,numérica,Medida,Ano de lançamento usado pelos autores.,212,22.75,69,mín. 0; mediana 1997; máx. 9999
+num_Genres,numérica,Medida,Número de etiquetas de género.,922,98.93,3,mín. 0; mediana 1; máx. 2
+num_MoodsAll,numérica,Medida,Número de etiquetas de humor.,922,98.93,8,mín. 0; mediana 12.5; máx. 23
